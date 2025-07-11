@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Agropecuaria</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Tienda Agropecuaria</h1>
+    <div class="container-icon">
+      <div class="container-cart-icon">
+        <!-- Ícono del carrito -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-cart" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 
+            1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 
+            1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 
+            1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 
+            10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 
+            0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+        </svg>
+        <div class="count-products">
+          <span id="contador-productos">0</span>
+        </div>
+      </div>
+
+      <div class="container-cart-products hidden-cart">
+        <div class="row-product hidden">
+          <div class="cart-product">
+            <div class="info-cart-product">
+              <span class="cantidad-producto-carrito">1</span>
+              <p class="titulo-producto-carrito">shampoo para gato</p>
+              <span class="precio-producto-carrito">$20000</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-close" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="cart-total hidden">
+          <h3>Total</h3>
+          <span class="total-pagar" id="valorTotal">$40000</span>
+        </div>
+
+        <p class="cart-empty">El carrito está vacío</p>
+        <button class="btn-add-carta">Realizar compra</button>
+        
+
+        <div class="form-datos-cliente">
+          <input type="email" id="email" placeholder="Correo electrónico" required />
+          <input type="password" id="password" placeholder="Contraseña" required />
+          <input type="text" id="tarjeta" placeholder="Tarjeta de crédito" required />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-items">
+    <!-- Productos -->
+    <div class="item">
+      <figure><img src="imagenes/bañosecogato.JPG"producto" /></figure>
+      <div class="info-product">
+        <h2>shampoo para gato</h2>
+        <p class="price">$20000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/Celoanimales.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>celo para animales</h2>
+        <p class="price">$35000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/cuidocaballos.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>cuido para caballos</h2>
+        <p class="price">$50000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/cuidoCerdos.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>cuido para cerdos</h2>
+        <p class="price">$45000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/cuidogato.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>cuido para gatos</h2>
+        <p class="price">$30000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/cuidoperro.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>cuido para perros</h2>
+        <p class="price">$75000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/cuidoVaca.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>cuido para vacas</h2>
+        <p class="price">$90000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+       <div class="item">
+      <figure><img src="imagenes/desparacitariocerdo.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>desparacitario para cerdos</h2>
+        <p class="price">$50000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+       <div class="item">
+      <figure><img src="imagenes/perfumemascota.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>perfume para mascotas</h2>
+        <p class="price">$38000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/SalesManegcioVaca.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>sales de magnecio para vaca</h2>
+        <p class="price">$80000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/shampoocaballo.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>shampoo para cabollo</h2>
+        <p class="price">$60000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+        <div class="item">
+      <figure><img src="imagenes/Shampoperro.JPG" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>shampoo para perro</h2>
+        <p class="price">$35000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+    <div class="item">
+      <figure><img src="imagenes/vitaminascaballo.png" alt="producto" /></figure>
+      <div class="info-product">
+        <h2>vitamina para caballos</h2>
+        <p class="price">$90000</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+    </div>
+    <script src="js/index.js" defer></script>
+    <script src="js/venta.js" defer></script>
+</body>
+
+</html>

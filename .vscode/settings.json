@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 14,
+  "tomcat.java.home": "C:\\java\\jdk-17.0.15.6-hotspot",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
+  "liveServer.settings.port": 5501,
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "maven.view": "flat"
+}
