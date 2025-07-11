@@ -53,10 +53,13 @@
         
 
         <div class="form-datos-cliente">
-          <input type="email" id="email" placeholder="Correo electrónico" required />
+          <input list="emails-list" id="email" name="email" placeholder="Correo electrónico" required />
+          <datalist id="emails-list"></datalist>
+
           <input type="password" id="password" placeholder="Contraseña" required />
           <input type="text" id="tarjeta" placeholder="Tarjeta de crédito" required />
         </div>
+
       </div>
     </div>
   </header>

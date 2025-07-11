@@ -5,6 +5,7 @@
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <!-- Guardar venta -->
     <servlet>
         <servlet-name>GuardarVenta</servlet-name>
         <servlet-class>com.tienda.servlets.GuardarVentaServlet</servlet-class>
@@ -15,7 +16,18 @@
         <url-pattern>/guardar_venta</url-pattern>
     </servlet-mapping>
 
-    <!-- ✅ Welcome file para que se abra Tienda.html por defecto -->
+    <!-- Obtener correos -->
+    <servlet>
+        <servlet-name>ObtenerCorreos</servlet-name>
+        <servlet-class>com.tienda.servlets.ObtenerCorreosServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObtenerCorreos</servlet-name>
+        <url-pattern>/obtener_correos</url-pattern>
+    </servlet-mapping>
+
+    <!-- Página de inicio -->
     <welcome-file-list>
         <welcome-file>Tienda.html</welcome-file>
     </welcome-file-list>

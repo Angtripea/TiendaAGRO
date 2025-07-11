@@ -1,3 +1,4 @@
+com\tienda\servlets\ObtenerCorreosServlet.class
 com\tienda\servlets\GuardarVentaServlet$Venta.class
 com\tienda\servlets\GuardarVentaServlet.class
 com\tienda\servlets\GuardarVentaServlet$Producto.class
