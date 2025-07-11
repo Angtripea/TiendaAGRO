@@ -1,0 +1,14 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>GuardarVenta</servlet-name>
+        <servlet-class>com.tienda.servlets.GuardarVentaServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GuardarVenta</servlet-name>
+        <url-pattern>/guardar_venta</url-pattern>
+    </servlet-mapping>
+
+</web-app>
